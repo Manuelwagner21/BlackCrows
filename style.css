@@ -103,3 +103,18 @@ td {
  #gallery img:hover {
     filter:none;
  }
+
+#behaelter{
+    padding-top: 56.25%;
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#behaelter iframe{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
