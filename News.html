@@ -3,6 +3,66 @@
 <html lang="en">
 
       <head>
+
+        <style>
+          div.news {
+            border: 1px solid rgb(32, 32, 32);
+          }
+          
+          div.news:hover {
+            border: 1px solid rgb(235, 235, 235);
+            border-radius: 20px;
+          }
+          
+          div.news img {
+            width: 100%;
+            height: auto;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+          }
+          
+          div.desc {
+            padding: 15px;
+            text-align: center;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+          }
+          
+          * {
+            box-sizing: border-box;
+          }
+          
+          .tkctermine {
+            padding: 0 10px;
+            float: left;
+            width: 49.99999%;
+            margin-bottom: 20px;
+            border-radius: 20px;
+          }
+          
+          @media only screen and (max-width: 700px) {
+            .tkctermine {
+              width: 49.99999%;
+              margin: 6px 0;
+            }
+          }
+          
+          @media only screen and (max-width: 500px) {
+            .tkctermine {
+              width: 100%;
+            }
+          }
+          
+          .clearfix:after {
+            content: "";
+            display: table;
+            clear: both;
+          }
+          </style>
+
+
+
+
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -55,44 +115,49 @@
 
           <h1 style="text-align: center; color: white; margin-top: 70px; margin-bottom: 70px;">News</h1>
 
-          <div style="background-color: white; margin-right: 10%; margin-left: 10%; padding-top: 10px;border-radius: 23px;">
-            <div style="text-align: center; margin-bottom: 30px; margin-top: 30px; font-size: 25px;">
-              <a style="color: black;">Die Neuen Termine für 2022 sind da!</a>
-           </div>
-            <div id="tkctermine" style="margin-bottom: 100px;">
-              <img src="TKC_Termine_2022.jpg" alt="TKC Sued">
+
+
+
+          <div class="tkctermine">
+            <div class="news">
+              <a target="_blank" href="">
+                <img src="TKC_Termine_2022.jpg" alt="TKC Termine">
+              </a>
+              <div style="background-color: white; color: black;" class="desc"><h4>Die Neuen Termine für 2022 sind da!</h4></div>
+            </div>
+          </div>
+
+          <div class="tkctermine">
+            <div class="news">
+              <a target="_blank" href="">
+                <img src="News1.jpg" alt="TKC Rennen Bad Rappenau">
+              </a>
+              <div style="background-color: white; color: black;" class="desc"><h4>Position 7 nach Finale in Bad Rappenau</h4></div>
+            </div>
+          </div>
+
+          <div class="tkctermine">
+            <div class="news">
+              <a target="_blank" href="">
+                <img src="News2.jpg" alt="">
+              </a>
+              <div style="background-color: white; color: black;" class="desc"><h4>Erstes Podium in Ampfing!</h4></div>
+            </div>
+          </div>
+
+          <div class="tkctermine">
+            <div class="news">
+              <a target="_blank" href="">
+                <img src="News3.jpg" alt="">
+              </a>
+              <div style="background-color: white; color: black;" class="desc"><h4>Überraschungs Pole in Kaufbeuren!</h4></div>
             </div>
           </div>
 
 
-          <div style="background-color: white; margin-right: 10%; margin-left: 10%; padding-top: 10px; border-radius: 23px;">
-            <div style="text-align: center; margin-bottom: 30px; font-size: 25px; margin-right: 10%; margin-left: 10%;">
-              <a style="color: black;">Position 7 nach Finale in Bad Rappenau!</a>
-            </div>
-            <div id="tkctermine" style="margin-bottom: 100px;">
-              <img src="News1.jpg" alt="Bad Rappenau TKC">
-            </div>
-          </div>
 
 
-          <div style="background-color: white; margin-right: 10%; margin-left: 10%; padding-top: 10px; border-radius: 23px;">
-            <div style="text-align: center; margin-bottom: 30px; font-size: 25px; margin-right: 10%; margin-left: 10%;">
-              <a style="color: black;">Erstes Podium in Ampfing!</a>
-            </div>
-            <div id="tkctermine" style="margin-bottom: 100px;">
-              <img src="News2.jpg" alt="TKC Ampfing">
-            </div>
-          </div>
-
-          <div style="background-color: white; margin-right: 10%; margin-left: 10%; padding-top: 10px; border-radius: 23px;">
-            <div style="text-align: center; margin-bottom: 30px; font-size: 25px; margin-right: 10%; margin-left: 10%;">
-              <a style="color: black;">Überraschungs Pole Position in Kaufbeuren!</a>
-            </div>
-            <div id="tkctermine" style="margin-bottom: 100px;">
-              <img src="News3.jpg" alt="TKC Ampfing">
-            </div>
-          </div>
-
+          <div class="clearfix"></div>
 
           <div class="footer">
             <a href="Datenschutzerklärung.html" style="margin-right: 10px;">Datenschutzerklärung</a>
