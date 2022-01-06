@@ -56,6 +56,48 @@ body{
 
 
 
+@media (min-width: 300px){
+    #feed{
+        margin-right: 10%;
+        margin-left: 10%;
+        color: white; margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 570px){
+    #feed{
+        margin-right: 10%;
+        margin-left: 10%;
+        color: white; margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 768px){
+    #feed{
+        margin-right: 10%;
+        margin-left: 10%;
+        color: white; margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 992px){
+    #feed{
+        margin-right: 20%;
+        margin-left: 20%;
+        color: white; margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 1200px){
+    #feed{
+        margin-right: 20%;
+        margin-left: 20%;
+        color: white; margin-bottom: 20px;
+    }
+}
+
+
+
 
 @media (min-width: 300px){
     #uns{
@@ -212,6 +254,52 @@ body{
         margin-top: 25px;
     }
 }
+
+
+
+
+
+@media (min-width: 300px){
+    #thing{
+        margin-right: 10%;
+        margin-left: 10%;
+        border-bottom: solid; padding-bottom: 100px; border-color: white;
+    }
+}
+
+@media (min-width: 570px){
+    #thing{
+        margin-right: 10%;
+        margin-left: 10%;
+        border-bottom: solid; padding-bottom: 100px; border-color: white;
+    }
+}
+
+@media (min-width: 768px){
+    #thing{
+        margin-right: 10%;
+        margin-left: 10%;
+        border-bottom: solid; padding-bottom: 100px; border-color: white;
+    }
+}
+
+@media (min-width: 992px){
+    #thing{
+        margin-right: 20%;
+        margin-left: 20%;
+        border-bottom: solid; padding-bottom: 100px; border-color: white;
+    }
+}
+
+@media (min-width: 1200px){
+    #thing{
+        margin-right: 20%;
+        margin-left: 20%;
+        border-bottom: solid; padding-bottom: 100px; border-color: white;
+    }
+}
+
+
 
 
 
@@ -219,6 +307,8 @@ body{
     text-align: center;
     color: white;
     margin-bottom: 30px;
+    margin-right: 10%;
+    margin-left: 10%;
 }
 
 
@@ -301,11 +391,55 @@ td {
     filter:none;
  }
 
+
+
+
+ @media (min-width: 300px){
+    #behaelter{
+        margin-right: 10%;
+        margin-left: 10%;
+        padding-top: 45%;
+    }
+}
+
+@media (min-width: 570px){
+    #behaelter{
+        margin-right: 10%;
+        margin-left: 10%;
+        padding-top: 45%;
+    }
+}
+
+@media (min-width: 768px){
+    #behaelter{
+        padding-top: 45%;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+}
+
+@media (min-width: 992px){
+    #behaelter{
+        padding-top: 33.75%;
+        margin-right: 20%;
+        margin-left: 20%;
+    }
+}
+
+@media (min-width: 1200px){
+    #behaelter{
+        padding-top: 33.75%;
+        margin-right: 20%;
+        margin-left: 20%;
+    }
+}
+
+
+
+
+
 #behaelter{
-    padding-top: 56.25%;
     position: relative;
-    margin-left: 10%;
-    margin-right: 10%;
 }
 
 #behaelter iframe{
@@ -315,6 +449,9 @@ td {
     width: 100%;
     height: 100%;
 }
+
+
+
 
 
 #tkctermine img{
