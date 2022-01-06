@@ -63,6 +63,7 @@ body{
         margin-left: 10%;
         margin-bottom: 100px;
         margin-top: 25px;
+        color: white;
     }
 }
 
@@ -72,6 +73,7 @@ body{
         margin-left: 10%;
         margin-bottom: 100px;
         margin-top: 25px;
+        color: white;
     }
 }
 
@@ -81,6 +83,7 @@ body{
         margin-left: 10%;
         margin-bottom: 100px;
         margin-top: 25px;
+        color: white;
     }
 }
 
@@ -90,6 +93,7 @@ body{
         margin-left: 20%;
         margin-bottom: 100px;
         margin-top: 25px;
+        color: white;
     }
 }
 
@@ -99,19 +103,124 @@ body{
         margin-left: 20%;
         margin-bottom: 100px;
         margin-top: 25px;
+        color: white;
+    }
+}
+
+
+@media (min-width: 300px){
+    #interesse{
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-bottom: 30px;
+        color: white;
+        margin-top: 25px;
+    }
+}
+
+@media (min-width: 570px){
+    #interesse{
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-bottom: 30px;
+        color: white;
+        margin-top: 25px;
+    }
+}
+
+@media (min-width: 768px){
+    #interesse{
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-bottom: 30px;
+        color: white;
+        margin-top: 25px;
+    }
+}
+
+@media (min-width: 992px){
+    #interesse{
+        margin-right: 20%;
+        margin-left: 20%;
+        margin-bottom: 30px;
+        color: white;
+        margin-top: 25px;
+    }
+}
+
+@media (min-width: 1200px){
+    #interesse{
+        margin-right: 20%;
+        margin-left: 20%;
+        margin-bottom: 30px;
+        color: white;
+        margin-top: 25px;
     }
 }
 
 
 
 
-#socialmedia{ 
-    color: white;
+
+
+@media (min-width: 300px){
+    #tabelle{
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-bottom: 30px;
+        color: white;
+        margin-top: 25px;
+    }
+}
+
+@media (min-width: 570px){
+    #tabelle{
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-bottom: 30px;
+        color: white;
+        margin-top: 25px;
+    }
+}
+
+@media (min-width: 768px){
+    #tabelle{
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-bottom: 30px;
+        color: white;
+        margin-top: 25px;
+    }
+}
+
+@media (min-width: 992px){
+    #tabelle{
+        margin-right: 20%;
+        margin-left: 20%;
+        margin-bottom: 30px;
+        color: white;
+        margin-top: 25px;
+    }
+}
+
+@media (min-width: 1200px){
+    #tabelle{
+        margin-right: 20%;
+        margin-left: 20%;
+        margin-bottom: 30px;
+        color: white;
+        margin-top: 25px;
+    }
+}
+
+
+
+#socialmedia{
     text-align: center;
-    margin-right: 10%;
-    margin-left: 10%;
+    color: white;
     margin-bottom: 30px;
 }
+
 
 .footer{
     background-color: rgb(36, 36, 36);
