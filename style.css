@@ -11,12 +11,19 @@ body{
     margin-right: 5%;
 }
 
+@media (min-width: 400px){
+    #carouselExampleIndicators{
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-bottom: 100px;
+    }
+}
+
 @media (min-width: 570px){
     #carouselExampleIndicators{
         margin-right: 10%;
         margin-left: 10%;
         margin-bottom: 100px;
-        width: 80%;
     }
 }
 
