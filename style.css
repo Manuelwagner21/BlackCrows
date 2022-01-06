@@ -11,11 +11,38 @@ body{
     margin-right: 5%;
 }
 
-#carouselExampleIndicators{
-    margin-right: 10%;
-    margin-left: 10%;
-    margin-bottom: 100px;
+@media (min-width: 576px){
+    #carouselExampleIndicators{
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-bottom: 100px;
+    }
 }
+
+@media (min-width: 768px){
+    #carouselExampleIndicators{
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-bottom: 100px;
+    }
+}
+
+@media (min-width: 992px){
+    #carouselExampleIndicators{
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-bottom: 100px;
+    }
+}
+
+@media (min-width: 1200px){
+    #carouselExampleIndicators{
+        margin-right: 20%;
+        margin-left: 20%;
+        margin-bottom: 100px;
+    }
+}
+
 
 #socialmedia{ 
     color: white;
@@ -129,3 +156,4 @@ td {
 #tkctermine {
     text-align: center;
 }
+
