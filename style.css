@@ -641,3 +641,45 @@ td {
         margin-left: 20%;
     }
 }
+
+
+
+@media (min-width: 300px){
+    #impressummail{
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-bottom:400px ;
+    }
+}
+
+@media (min-width: 570px){
+    #impressummail{
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-bottom:500px ;
+    }
+}
+
+@media (min-width: 768px){
+    #impressummail{
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-bottom: 600px;
+    }
+}
+
+@media (min-width: 992px){
+    #impressummail{
+        margin-right: 20%;
+        margin-left: 20%;
+        margin-bottom: 700px;
+    }
+}
+
+@media (min-width: 1200px){
+    #impressummail{
+        margin-right: 20%;
+        margin-left: 20%;
+        margin-bottom: 800px;
+    }
+}
