@@ -257,6 +257,76 @@ body{
 
 
 
+@media (min-width: 300px){
+    #formulargroeße{
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+}
+
+@media (min-width: 570px){
+    #formulargroeße{
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+}
+
+@media (min-width: 768px){
+    #formulargroeße{
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+}
+
+@media (min-width: 992px){
+    #formulargroeße{
+        margin-right: 20%;
+        margin-left: 20%;
+    }
+}
+
+@media (min-width: 1200px){
+    #formulargroeße{
+        margin-right: 20%;
+        margin-left: 20%;
+    }
+}
+
+@media (min-width: 300px){
+    #knt{
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+}
+
+@media (min-width: 570px){
+    #knt{
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+}
+
+@media (min-width: 768px){
+    #knt{
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+}
+
+@media (min-width: 992px){
+    #knt{
+        margin-right: 20%;
+        margin-left: 20%;
+    }
+}
+
+@media (min-width: 1200px){
+    #knt{
+        margin-right: 20%;
+        margin-left: 20%;
+    }
+}
+
 
 
 @media (min-width: 300px){
@@ -527,14 +597,6 @@ td {
     }
 }
 
-
-
-
-
-
-
-
-
 #tkctermine img{
     max-width: 100%;
     border-bottom-right-radius: 20px;
@@ -545,3 +607,37 @@ td {
     text-align: center;
 }
 
+@media (min-width: 300px){
+    #impressum{
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+}
+
+@media (min-width: 570px){
+    #impressum{
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+}
+
+@media (min-width: 768px){
+    #impressum{
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+}
+
+@media (min-width: 992px){
+    #impressum{
+        margin-right: 20%;
+        margin-left: 20%;
+    }
+}
+
+@media (min-width: 1200px){
+    #impressum{
+        margin-right: 20%;
+        margin-left: 20%;
+    }
+}
